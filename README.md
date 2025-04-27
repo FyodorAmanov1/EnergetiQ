@@ -15,7 +15,7 @@ You can visit our _platform_ [here](https://energti-q-website.vercel.app/product
 
 ![](figs/website_demo.gif)
 
-## Ouantum Computing for Battery Design
+## Quantum Computing for Battery Design
 
 Currently, we use a variational approach (VQE + QEOM algorithms) to analyze the properties of a material under heat. Through our quantum algorithm, we extract the energy spectrum of a molecule, which we can then use to compute properties of the material that characterize its response to heat. With phase estimation, we can likewise compute the energy spectrum with a higher accuracy and larger molecules. Currently, Microsoft's resource estimation estimates around 500k qubits needed for a fully fault-tolerant implementation of our phase estimation solution. Using this tool, we can optimize our approach before even having access to such systems. The code for our quantum solution is available [here](https://github.com/epelaaez/EnergetiQ/tree/main/battery_design).
 
