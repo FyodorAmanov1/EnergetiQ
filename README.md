@@ -17,8 +17,24 @@ To tackle this problem, we developed a platform for material analysis and batter
 ## Quantum solution
 Currently, we use a variational approach (VQE + QEOM algorithms) to analyze the properties of a material under heat. Through our quantum algorithm, we extract the energy spectrum of a molecule, which we can then use to compute properties of the material that characterize its response to heat. With phase estimation, we can likewise compute the energy spectrum with a higher accuracy and larger molecules. Currently, Microsoft's resource estimation estimates around 500k qubits needed for a fully fault-tolerant implementation of our phase estimation solution. Using this tool, we can optimize our approach before even having access to such systems. 
 
-## Machine learning solution
+## Battery Placement Optimization using Machine Learning
 
+### Overview
+To ensure efficient and impactful placement of our batteries, we leveraged Weighted K-Means Clustering, a machine learning technique that intelligently groups locations based on real-world data.
+
+### Methodology
+
+#### Efficiency Score:
+We designed a custom efficiency metric that rewards high population density and penalizes high temperatures.
+
+#### Weighted Clustering:
+By applying the efficiency score as a weight, the K-Means algorithm prioritizes areas where batteries can serve the most people while maintaining optimal performance.
+
+### Outcome:
+This approach allows us to strategically position batteries across the region, maximizing accessibility, minimizing energy loss, and enhancing community impact.
+
+Why It Matters
+Efficient battery placement not only reduces infrastructure costs but also empowers users with cheaper, more reliable renewable energy options — making our cities smarter, greener, and more resilient.
 
 
 ## Roadmap into the future
