@@ -15,23 +15,13 @@ To tackle this problem, we developed a platform for material analysis and batter
 
 
 ## Quantum solution
+
 Currently, we use a variational approach (VQE + QEOM algorithms) to analyze the properties of a material under heat. Through our quantum algorithm, we extract the energy spectrum of a molecule, which we can then use to compute properties of the material that characterize its response to heat. With phase estimation, we can likewise compute the energy spectrum with a higher accuracy and larger molecules. Currently, Microsoft's resource estimation estimates around 500k qubits needed for a fully fault-tolerant implementation of our phase estimation solution. Using this tool, we can optimize our approach before even having access to such systems. 
 
 ## Battery Placement Optimization using Machine Learning
 
-### Overview
-To ensure efficient and impactful placement of our batteries, we leveraged Weighted K-Means Clustering, a machine learning technique that intelligently groups locations based on real-world data.
+We optimized battery placement using Weighted K-Means Clustering, a machine learning technique that intelligently groups locations based on a custom efficiency score. This score combines population density and temperature data, rewarding areas with more people and cooler climates. By applying these scores as weights during clustering, the algorithm prioritizes regions where batteries can deliver the highest impact and long-term efficiency. This strategy ensures cost-effective deployment, greater energy accessibility, and supports a smarter, greener, and more resilient city infrastructure.
 
-### Methodology
-
-#### Efficiency Score:
-We designed a custom efficiency metric that *rewards* high population density and *penalizes* high temperatures.
-
-#### Weighted Clustering:
-By applying the efficiency score as a weight, the K-Means algorithm prioritizes areas where batteries can serve the most people while maintaining optimal performance.
-
-### Outcome:
-This approach allows us to strategically position batteries across the region, maximizing accessibility, minimizing energy loss, and enhancing community impact.
 
 ## Roadmap into the future
 
