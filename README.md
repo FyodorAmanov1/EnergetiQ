@@ -11,11 +11,7 @@ Batteries in the UAE and in the general gulf region suffer from the extreme heat
 
 To tackle this problem, we developed a platform for material analysis and battery placement through quantum computation and machine learning. We put our full pipeline solution into a website aimed at selling our solution to customers like government entities and city planners. In this website, a costumer can explore the properties of different potential materials under heat. Once batteries are available to the user, their placement can be optimized based on population and heat maps. You can visit our platform [here](https://energti-q-website.vercel.app/products/ai).
 
-<div style="text-align: center;">
-  <video width="520" controls>
-    <source src="figs/website_demo.mov" type="video/mp4">
-  </video>
-</div>
+![](figs/website_demo.gif)
 
 
 ## Quantum solution
