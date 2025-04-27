@@ -25,17 +25,13 @@ To ensure efficient and impactful placement of our batteries, we leveraged Weigh
 ### Methodology
 
 #### Efficiency Score:
-We designed a custom efficiency metric that rewards high population density and penalizes high temperatures.
+We designed a custom efficiency metric that *rewards* high population density and *penalizes* high temperatures.
 
 #### Weighted Clustering:
 By applying the efficiency score as a weight, the K-Means algorithm prioritizes areas where batteries can serve the most people while maintaining optimal performance.
 
 ### Outcome:
 This approach allows us to strategically position batteries across the region, maximizing accessibility, minimizing energy loss, and enhancing community impact.
-
-Why It Matters
-Efficient battery placement not only reduces infrastructure costs but also empowers users with cheaper, more reliable renewable energy options — making our cities smarter, greener, and more resilient.
-
 
 ## Roadmap into the future
 
