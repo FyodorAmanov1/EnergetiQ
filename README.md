@@ -35,6 +35,20 @@ Our short, medium, and long term goals include:
 ## Team
 
 Meet the team!
+
 <div style="text-align: center;">
   <img src="figs/team.jpg" alt="image" width="500"/>
 </div>
+
+- Epameinondas Douros
+- Fyodor Amanov
+- Marouane Benbetka
+- Omar Ibrahim
+- Yara Kouttane
+- Yonara Anastacio
+- Emilio Peláez
+- Omar Ibrahim
+- Mohammad Abualrub
+- Mahmoud Kassem
+- Shahd Joudeh
+- Nils Quetschlich
