@@ -15,6 +15,11 @@ This project extracts **average temperature at 18:00** for a grid of locations u
 - Insert a decimal point after the first 2 digits to restore valid latitude and longitude formats.
 
 ### 4. Setup API Client
+
+We used the API Call of the following link:
+
+https://open-meteo.com/en/docs/historical-weather-api
+
 - Initialize the **Open-Meteo API** client with:
   - Request caching
   - Automatic retries on failure
